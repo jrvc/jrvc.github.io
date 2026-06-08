@@ -1,573 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Raúl Vázquez - Postdoctoral Researcher in NLP & Computational Linguistics">
+  <title>Raúl Vázquez | NLP Researcher</title>
+  
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body>
 
-    <title>Raúl Vázquez</title>
+  <header class="container">
+    <img src="assets/img/myphoto3.jpg" alt="Raúl Vázquez" class="profile-img">
+    <h1>Raúl Vázquez</h1>
+    <p>Postdoctoral Researcher @ University of Helsinki<br>
+    <span style="color: var(--text-muted);">Multimodality Research Group</span></p>
+    
+    <nav>
+      <ul>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS & VIS</a></li>
+        <li><a href="#publications">PUBLICATIONS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="assets/files/cv_jrvc.pdf" target="_blank">[ DOWNLOAD CV ]</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <main class="container">
+    
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <h2>> ABOUT_ME</h2>
+      <div class="pixel-box">
+        <p>I am a postdoctoral researcher and teaching staff at the University of Helsinki.My expertise lies at the intersection of computational linguistics, machine learning, and trustworthy AI. I have developed and deployed novel methods for multilingual representation learning, modular translation architectures, systematic hallucination detection, and uncertainty quantification in generative models.</p>
+        <br>
+        <p>  Prior to my PhD (2023), I earned an MSc in Mathematical Modelling from Università degli Studi dell'Aquila (2017) and a BSc in Applied Mathematics from ITAM, Mexico (2015).</p>
+      </div>
+    </section>
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- PROJECTS / VIS SECTION (New!) -->
+    <section id="projects">
+      <h2>> PROJECTS_&_VIS</h2>
+      <div class="pixel-box">
+        <h3>Interactive Visualizations</h3>
+        <p>Exploring NLP concepts through interactive web visualizations.</p>
+        <br>
+        <a href="./construction.html" class="pixel-btn">LAUNCH VIS DEMO</a>
+      </div>
+      
+      <div class="pixel-box">
+        <h3>Open Source Tools</h3>
+        <p>Check out my contributions to multilingual NMT and hallucination detection frameworks on GitHub.</p>
+        <br>
+        <a href="https://github.com/jrvc" target="_blank" class="pixel-btn">VIEW GITHUB</a>
+      </div>
+    </section>
 
-	  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- PUBLICATIONS SECTION -->
+    <section id="publications">
+      <h2>> SELECTED PUBLICATIONS</h2>
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-
-
-
-
-  </head>
-
-  <body data-spy="scroll" data-offset="0" data-target="#nav">
-
-	<div id="section-topbar" class="fixed-top">
-		<div id="topbar-inner">
-			<div class="container">
-				<div class="">
-					<div class="dropdown">
-						<ul id="nav" class="nav">
-							<li class="menu-item"><a  href="assets/files/cv_jrvc.pdf" title="Download full CV"><i class="icon-file"></i></a></li>
-							<li class="menu-item"><a href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
-              <li class="menu-item"><a href="https://www.linkedin.com/in/jraulvc/"  title="Connect to my LinkedIn"><i class="icon-linkedin"></i></a>
-							<li class="menu-item"><a  href="https://github.com/jrvc" title="Follow me on Twitter"><i class="icon-github"></i></a></li>
-						</ul><!--/ uL#nav -->
-					</div><!-- /.dropdown -->
-
-					<!-- <div class="clear"></div> -->
-				</div><!--/.row -->
-			</div><!--/.container -->
-
-			<div class="clear"></div>
-		</div><!--/ #topbar-inner -->
-	</div><!--/ #section-topbar -->
-
-	<div id="headerwrap">
-		<div class="container">
-			<div class=" centered">
-				<div class="">
-          <br>
-          <h1><b>Raúl Vázquez</b> </span></h1>
-    			<p class="intro-para" style="font-size:150%;"><b>Postdoctoral researcher at University of Helsinki in the <a href="https://www.helsinki.fi/en/researchgroups/multimodality/" style="color: #BC4B51;">Multimodality</a> research group
-    				<br>
-    				 Email: raul.vazquez@helsinki.fi </b>
-
-          </p>
-            <div class="img-div" >
-            <img class="img-circle" src="assets/img/myphoto3.jpg" id="center-img">
-            </div>
-				</div><!--/.col-lg-12 -->
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/.#headerwrap -->
-
-
-
-
-<!--/.Start slideshow -->
-
-<div class="w3-content w3-display-container" style="max-width:100%">
-  <div class="slide_move">
-      <div class="arrows prev w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-      <div class="arrows next w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-  </div>
-      <div class="mySlides">
-            <section id="about" name="about"></section>
-
-            <div id="intro">
-              <div class="container" >
-                <div class="row slides-div">
-
-                  <div class="col-lg-4 header-div">
-                    <h2 style="color:#2c3e50;font-size:150%;"> <b>ABOUT ME</b></h2>
-                    <hr align="left" width="100%" >
-                  </div>
-                  <div class="col-lg-8 slide-style">
-                    <p class="slide-p" style="font-size:100%;" >
-			    I am a posdoctoral researcher and teaching staff at the University of Helsink. I specialize in advancing natural language understanding and processing (NLU & NLP) through data-driven methodologies.
-			    My current research focuses on uncertainty modelling, hallucination detection, and representation learning in neural language models.
-			    <br><br>
-			    I obtained my PhD in Computational Linguistics in 2023 at University of Helsinki, where my research centered on representation learning using massively multilingual parallel corpora, and the development 
-			    of models for multilingual and multimodal machine translation. Prior to my PhD, I earned an MSc in Mathematical Modelling from Università degli Studi dell'Aquila in 2017 and a BSc in Applied Mathematics 
-			    from ITAM (Mexico's Autonomous Institute of Technology) in 2015.
-			    <br><br>
-			    Building on this foundation, my current research aims at building language technology that meets the challenges of real-world applications by traversing four key avenues: 
-			    <ol>
-  				    <li>Multilingual hallucination detection</li>
-  				    <li>Improving the reliability and decision-making of NLP systems</li>
-  				    <li>Data contamination in knowledge distillation frameworks</li>
-				    <li>Methods for improving NLP for under-resourced scenarios and underrepresented communities</li>
-			    </ol>
-                    </p>
-                  </div>
-
-                      <div class="">
-                                <p><a href="#"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
-                              </div>
-
-                </div><!--/.row -->
-              </div><!--/.container -->
-            </div><!--/ #intro -->
+      <div class="pub-item">
+        <span class="pub-year">[2025]</span>
+        <p><strong>Raúl Vázquez</strong> et al. 
+        <a href="https://aclanthology.org/2025.semeval-1.322/" target="_blank"> SemEval-2025 Task 3: Mu-SHROOM, the Multilingual Shared-task on Hallucinations and Related Observable Overgeneration Mistakes</a>. 
+        <em>Proceedings of SemEval-2025</em>.</p>
+      </div>
+            
+      <div class="pub-item">
+        <p>Timothee Mickus, Aman Sinha, <strong>Raúl Vázquez</strong>. 
+        <a href="https://aclanthology.org/2025.acl-long.269/" target="_blank">Your Model is Overconfident, and Other Lies We Tell Ourselves</a>. 
+        <em>Proceedings of ACL 2025</em>.</p>
       </div>
 
-
-      <div class="mySlides">
-            <section id="education" name="education"></section>
-
-            <div id="intro">
-              <div class="container" width="150%">
-                <div class="">
-
-                  <div >
-                    <h2 style="color:#2c3e50;font-size:150%;"> <b>EDUCATION</b></h2>
-                    <hr align="left" width="100%" >
-                  </div>
-
-                  <br>
-                  <br>
-                  <br>
-
-                  <div class='allboxes row'>
-
-                    <div class="currentbox1 ">
-                      <h3> PhD. in Language Technology </h3>
-                      <h4><b>University of Helsinki </b></h4>
-                      <h4> 2018-2022</h4>
-                      <p style="color:#2c3e50; font-size:130%;">Supervisor: <span style="display:inline-block; width: 0.5cm;"></span> Jörg Tiedemann
-                          <br>                               co-Supervisor: Mathias Creutz
-                          <br>
-                        Projects: <a href="https://www.helsinki.fi/en/beta/natural-language-understanding-with-cross-lingual-grounding">FoTran</a> and <a href="https://memad.eu/">MeMAD </a>
-                        <br>  <br> Focus Areas: Natural Language Processing, Neural Machine Translation, Mathematical Modelling
-                        <br>
-                      </p>
-
-
-
-                            </div>
-
-
-                            <div class="currentbox1">
-                              <h3> M. Sc. Mathematical Engineering </h3>
-                              <h4><b>Universitá degli Studi dell'Aquila</b>   </h4>
-                              <h4> 2015-2017</h4>
-                              <p style="color:#2c3e50; font-size:125%;"> <em> Scholarship award from the EU Commission. </em></p>
-                              <p style="color:#2c3e50; font-size:130%;"> Thesis: The Vehicle Routing Problem - An Application and Proposed Heuristics
-                                <br> Adviser: <span style="display:inline-block; width: 0.5cm;"></span> Claudio Arbib
-                                  <br>                                 co-Adviser: Stefano Smriglio
-                                <br> <br> Focus Area:  ODEs, PDEs, Optimization
-                            </p>
-
-
-
-                                    </div>
-
-
-
-                        <div class="currentbox1">
-                          <h3> M. Sc. Technomathematik </h3>
-                          <h4><b>Hamburg Universität </b> </h4>
-                          <h4> 2016-2017 </h4>
-                          <p style="color:#2c3e50; font-size:130%;"> Joint degree awarded for completing the <a href="https://www.mathmods.eu">MathMods</a> Joint M.Sc.
-
-                          <br><br> Focus Areas: non-smooth Convex Optimization and Numerical Approximation methods for PDEs
-
-                            </p>
-
-
-
-
-                                </div>
-
-<br>
-
-                  <div class="currentbox1">
-                    <h3> B.Sc. in Applied Mathematics</h3>
-                    <h4><b>Instituto Tecnológico Autónomo de México (ITAM)</b> </h4>
-                    <h4> 2008-2015 </h4>
-                    <p style="color:#2c3e50; font-size:130%;"> Thesis: A Bayesian Approach to Time Series Smoothing via the Hodrick-Prescott Filter
-Modelling</a>
-                    <br> Adviser: Enrique de Alba Guerra
-                    <br><br> Focus Areas: Statistics, Probability, Linear and non-Linear Optimization
-
-
-
-
-                          </div>
-
-
-
-
-
-                  </div>
-
-
-                </div><!--/.row -->
-              </div><!--/.container -->
-            </div><!--/ #intro -->
+      <div class="pub-item">
+        <span class="pub-year">[2024]</span>
+        <p>Timothee Mickus, Elaine Zosa, <strong>Raúl Vázquez</strong>, et al. 
+        <a href="https://aclanthology.org/2024.semeval-1.273/" target="_blank">SemEval-2024 Task 6: SHROOM</a>. 
+        <em>Proceedings of SemEval-2024</em>.</p>
       </div>
 
-
-            <div class="mySlides">
-                  <section id="experience" name="experience"></section>
-
-                  <div id="intro">
-                    <div class="container">
-                      <div class="">
-
-                        <div >
-                          <h2 style="color:#2c3e50;font-size:150%;"> <b>EXPERIENCE</b></h2>
-                          <hr align="left" width="100%" >
-                        </div>
-
-                        <br>
-                        <br>
-                        <br>
-
-                        <div class='allboxes'>
-
-
-                          <div class="currentbox2">
-                            <h3> Researcher</h3>
-                            <h4><b>University of Helsinki</b>   </h4>
-                            <h4> 2018-2023</h4>
-                            <p style="color:#2c3e50; font-size:130%;">
-                              Development of models for natural language understanding (NLU) with a data-driven approach
-                              that incorporates massively multilingual parallel corpora and the use of diverse input signals.
-                              </p>
-                              <br><br>
-                              <h3> Project Coordinator and Research Assistant</h3>
-                              <h4><b>INEGI - Mexico's Official Statistics Bureau</b>   </h4>
-                              <h4> 2014-2015</h4>
-                              <p style="color:#2c3e50; font-size:130%;">
-                                I assisted the Institute’s vice-president of Economical Information, Enrique de Alba Guerra.
-                                 Duties involved statistical analysis of time series and results visualization, as well as application and implementation of research articles.
-
-                                </p>
-                                  </div>
-
-
-                            <div class="currentbox2">
-                              <h3> Data Science Lab Collaborator</h3>
-                              <h4><b>Sedesol - Secretatiat of Social Development</b>   </h4>
-                              <h4> 2017-2018</h4>
-                              <p style="color:#2c3e50; font-size:130%;">
-                                Directly involved in the development of a monitor of agricultural production via remote-sensing
-                                data as part of a hunger early-warning system for the Mexican government.
-                              </p>
-                              <br><br><br>
-                              <h3> Logistics Coordinator Volunteer</h3>
-                              <h4><b>TECHO | Mexico </b>   </h4>
-                              <h4> 2012 </h4>
-                              <p style="color:#2c3e50; font-size:130%;">
-                                I collaborated with the planning and implementation of a project for the detection of irregular settlements,
-                                 and the establishment of a first contact between said settlements and the NGO.
-                              </p>
-                                    </div>
-
-
-                          <div class="currentbox2">
-                            <h3> Research Collaboration</h3>
-                            <h4><b>LFondry and Universitá degli Studi dell'Aquila</b>   </h4>
-                            <h4> 2017</h4>
-                            <p style="color:#2c3e50; font-size:130%;">
-                              Development of an optimization model for improving LFoundry’s production line. Customization of
-                              the Vehicle Routing Problem through Gurobi and GLPK software to improve microchips pickup and delivery time.
-                             </p>
-                             <br>
-                             <h3> Vehicle Inspection Intern</h3>
-                             <h4><b>Volkswagen Hannover</b>   </h4>
-                             <h4> 2012 </h4>
-                             <p style="color:#2c3e50; font-size:130%;">
-                               Created a graphical interface to improve the production line operation. I also prepared automated infrared signal sender
-                                and receiver for facilitating the interface usage and information extraction.
-                             </p>
-                                   </div>
-                                  </div>
-
-
-
-
-
-
-
-                        </div>
-
-
-                      </div><!--/.row -->
-                    </div><!--/.container -->
-                  </div><!--/ #intro -->
-            </div>
-
-
-  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-
-    <span class=" demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-    <span class=" demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-    <span class=" demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-  </div>
-</div>
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
-
-
-
-
-
-  	<!--publications -->
-  	<div id="skillswrap" >
-  		<div class="container" style="height:auto;">
-  			<div class="">
-
-            <section id="publications" name="publications"></section>
-
-            <div id="intro" style="opacity:0.85;">
-              <div class="container" >
-                <div class="footer-cont row">
-
-                  <div class="col-lg-4 foot-header" >
-                    <h2 style="color:#2c3e50;font-size:150%;"> <b>PUBLICATIONS</b></h2>
-                    <hr align="left" width="100%" >
-                  </div>
-                  <div class="col-lg-8 footer-header" >
-                    <p class="slide-p" style="color:#2c3e50;font-size:85%;">
-
-          ​<!--/.Most recent at top-->
-
-		 <font size="5">2025</font>
-          <br>
-	
-        Timothee Mickus, Aman Sinha, <b>Raúl Vázquez </b> (2025). <a href="https://aclanthology.org/2025.acl-long.269/"> Your Model is Overconfident, and Other Lies We Tell Ourselves </a>
-          Proceedings of ACL 2025 (Volume 1: Long Papers) <br><br>
+      <div class="pub-item">
+        <span class="pub-year">[2023]</span>
+        <p><strong>Raúl Vázquez</strong>. 
+        <a href="http://hdl.handle.net/10138/566538" target="_blank">Representation Learning in Multilingual Neural Machine Translation</a>. 
+        <em>Doctoral Thesis, University of Helsinki</em>.</p>
+      </div>
+      <p style="text-align: right; margin-top: 1rem;">
+      <a href="#about" target="_blank" class="pixel-btn">BACK TO TOP ↑ </a>
+      </p>
+      <p style="text-align: center;">
+	<a href="./publications.html" target="_blank" class="pixel-btn">SEE ALL PUBLICATIONS</a>
+      </p>
+      <p style="text-align: center; margin-top: 1rem;">
+        <a href="https://scholar.google.com/citations?user=nufKCR8AAAAJ&hl=en" target="_blank" class="pixel-btn">VIEW ON GOOGLE SCHOLAR</a>
+        <a href="https://researchportal.helsinki.fi/en/persons/raul-vazquez/publications/" target="_blank" class="pixel-btn"> VIEW ON UNIVERSITY PROFILE</a>
         
-		Bryan Eikema, <b>Raúl Vázquez,</b> Jonathan Berant, Marie-Catherine de Marneffe, Barbara Plank, Artem Shelmanov, Swabha Swayamdipta, Jörg Tiedemann, Chrysoula Zerva, Wilker Aziz (2025). <a href="https://aclanthology.org/2025.uncertainlp-main.0/"> Proceedings of the 2nd Workshop on Uncertainty-Aware NLP (UncertaiNLP 2025) </a>
-		  EMNLP 2025. <br><br>
-						
-		Ona de Gibert, Joseph Attieh, Teemu Vahtola, Mikko Aulamo, Zihao Li, <b>Raúl Vázquez,</b>, Tiancheng Hu, Jörg Tiedemann (2025). <a href="https://aclanthology.org/2025.emnlp-main.1408/"> Scaling Low-Resource MT via Synthetic Data Generation with LLMs </a>
-          Proceedings of EMNLP 2025 <br><br>
+      </p>
+    </section>
 
-        Ona De Gibert, Robert Pugh, Ali Marashian, <b>Raúl Vázquez, </b> Abteen Ebrahimi, Pavel Denisov, Enora Rice, Edward Gow-Smith, Juan Prieto, Melissa Robles, Rubén Manrique, Oscar Moreno, Angel Lino, Rolando Coto-Solano, Aldo Alvarez, Marvin Agüero-Torales, John E. Ortega, Luis Chiruzzo, Arturo Oncevay, Shruti Rijhwani, Katharina Von Der Wense, Manuel Mager (2025). <a href="https://aclanthology.org/2025.americasnlp-1.16/"> Findings of the AmericasNLP 2025 Shared Tasks on Machine Translation, Creation of Educational Material, and Translation Metrics for Indigenous Languages of the Americas </a>
-          Proceedings of AmericasNLP 2025 <br><br>
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2>> CONTACT</h2>
+      <div class="pixel-box">
+        <p><strong>Email:</strong> <a href="raul.vazquez [at] helsinki.fi">raul.vazquez [at] helsinki.fi</a></p>
+        <p><strong>Address:</strong> Unioninkatu 40, room C604, 00170 Helsinki, Finland</p>
+        <br>
+        <p>
+          <a href="https://www.linkedin.com/in/jrvc/" target="_blank" class="pixel-btn">LINKEDIN</a>
+          <a href="https://github.com/jrvc" target="_blank" class="pixel-btn">GITHUB</a>
+        </p>
+      </div.
+    </section>
 
-        <b>Raúl Vázquez, </b> Timothee Mickus, Elaine Zosa, Teemu Vahtola, Jörg Tiedemann, Aman Sinha, Vincent Segonne, Fernando Sanchez-Vega, Alessandro Raganato, Jindřich Libovický, Jussi Karlgren, Shaoxiong Ji, Jindřich Helcl, Liane Guillou, Ona De Gibert, Jaione Bengoetxea, Joseph Attieh, Marianna Apidianaki (2025). <a href="https://aclanthology.org/2025.semeval-1.322/"> SemEval-2025 Task 3: Mu-SHROOM, the Multilingual Shared-task on Hallucinations and Related Observable Overgeneration Mistakes </a>
-          Proceedings of SemEval-2025 <br><br>
+  </main>
 
-        Hengyu Luo, Zihao Li, Joseph Attieh, Sawal Devkota, Ona de Gibert, Xu Huang, Shaoxiong Ji, Peiqin Lin, Bhavani Sai Praneeth Varma Mantina, Ananda Sreenidhi, <b>Raúl Vázquez,</b> Mengjie Wang, Samea Yusofi, Fei Yuan, Jörg Tiedemann (2025). <a href="https://aclanthology.org/2025.emnlp-demos.43/"> GlotEval: A Test Suite for Massively Multilingual Evaluation of Large Language Models </a>
-          Proceedings EMNLP 2025 (System Demonstrations) <br><br>
-          
-          <br><br>
-						
-          <font size="5">2024</font>
-          <br>
-	
-		        Timothee Mickus, Elaine Zosa, <b> Raúl Vázquez, </b> Teemu Vahtola, Jörg Tiedemann, Vincent Segonne, Alessandro Raganato, Marianna Apidianaki (2024). <a href="https://aclanthology.org/2024.semeval-1.273/"> SemEval-2024 Task 6: SHROOM, a Shared-task on Hallucinations and Related Observable Overgeneration Mistakes </a>
-          Proceedings of SemEval-2024 <br><br>
-			    
-                <b> Raúl Vázquez, </b> Hande Celikkanat, Dennis Ulmer, Jörg Tiedemann, Swabha Swayamdipta, Wilker Aziz, Barbara Plank, Joris Baan and Marie-Catherine de Marneffe (2024). <a href="https://aclanthology.org/2023.blackboxnlp-1.10/"> Proceedings of the 1st Workshop on Uncertainty-Aware NLP (UncertaiNLP 2024) </a>
-          Proceedings of UncertaiNLP2024 <br><br>
+  <footer>
+    <div class="container">
+      <p>© 2026 Raúl Vázquez. Built with vanilla HTML/CSS & 8-bit love.</p>
+      <p><a href="#">[ BACK TO TOP ]</a></p>
+    </div>
+  </footer>
 
-		        Timothee Mickus, <b>Raúl Vázquez, </b> Joseph Attieh (2024). <a href="https://aclanthology.org/2024.insights-1.5/"> I Have an Attention Bridge to Sell You: Generalization Capabilities of Modular Translation Architectures </a>
-	      Proceedings of the Fifth Workshop on Insights from Negative Results in NLP <br><br>
-
-                <b>Raúl Vázquez, </b> Timothee Mickus, Jörg Tiedemann, Ivan Vulić and Ahmen Üstün (2024). <a href="https://aclanthology.org/2023.americasnlp-1.20/"> Proceedings of the 1st Workshop on Modular and Open Multilingual NLP (MOOMIN 2024) </a>
-          Proceedings of MOOMIN2024 <br><br>
-          
-                Timothee Mickus, Stig-Arne Grönroos, Joseph Attieh, Michele Boggia, Ona De Gibert, Shaoxiong Ji, Niki Andreas Loppi, Alessandro Raganato, <b> Raúl Vázquez, </b> and Jörg Tiedemann (2024). <a href="https://aclanthology.org/2023.nodalida-1.24/"> MAMMOTH: Massively Multilingual Modular Open Translation @ Helsinki </a> 
-          Proceedings of EACL2024  <br><br>
-
-		        Abteen Ebrahimi, Ona de Gibert, <b>Raúl Vázquez, </b> Rolando Coto-Solano, Pavel Denisov, Robert Pugh, Manuel Mager, Arturo Oncevay, Luis Chiruzzo, Katharina von der Wense, Shruti Rijhwani  <a href="https://aclanthology.org/2024.americasnlp-1.28/"> Findings of the AmericasNLP 2024 Shared Task on Machine Translation into Indigenous Languages </a>
-          Proceedings AmericasNLP 2024 <br><br>
-          
-          <br><br>
-
-          <font size="5">2023</font>
-          <br>
-		        <b>Raúl Vázquez</b>. (2023). <a href="http://hdl.handle.net/10138/566538"> Representation Learning in Multilingual Neural Machine Translation.</a> [Doctoral Thesis, University of Helsinki]. 
-		  Helsingin yliopisto. http://hdl.handle.net/10138/566538<br><br>
-
-				Jörg Tiedemann, Mikko Aulamo, Daria Bakshandaeva, Michele Boggia, Stig-Arne Grönroos, Tommi Nieminen, Alessandro Raganato, Yves Scherrer, <b>Raúl Vázquez</b>, Sami Virpioja. 2023. <a href="https://dl.acm.org/doi/abs/10.1007/s10579-023-09704-w">Democratizing neural machine translation with OPUS-MT</a> 
-			Language Resources and Evaluation, Volume 58, Issue 2 <br><br>
-						
-                Ona de Gibert, <b>Raúl Vázquez,</b> Mikko Aulamo, Sami Virpioja and Jörg Tiedemann (2023). <a href="https://aclanthology.org/2023.americasnlp-1.20/"> Four Approaches to Low-Resource Multilingual NMT: The Helsinki Submission to the AmericasNLP 2023 Shared Task </a>
-          Proceedings of AmericasNLP2023 <br><br>
-
-                Timothee Mickus and <b> Raúl Vázquez</b> (2023). <a href="https://aclanthology.org/2023.blackboxnlp-1.10/"> Why Bother with Geometry? On the Relevance of Linear Decompositions of Transformer Embeddings </a>
-          Proceedings of BlackboxNLP2023 <br><br>
-          
-                Michele Boggia, Stig-Arne Grönroos, Niki Loppi, Timothee Mickus, Alessandro Raganato, Jörg Tiedemann and <b> Raúl Vázquez, </b> (2023). <a href="https://aclanthology.org/2023.nodalida-1.24/"> Dozens of Translation Directions or Millions of Shared Parameters? Comparing Two Types of Multilinguality in Modular Machine Translation </a> 
-          Proceedings of NoDaLiDa2023  <br><br>
-
-                Jörg Tiedemann, Mikko Aulamo, D. Bakshandaeva, Michele Boggia, Stig-Aarne Grönroos, Tommi Nieminen, Alessandro Raganato, Yves Scherrer, <b> Raúl Vázquez </b>, and Sami Virpioja (2023). <a href="https://link.springer.com/article/10.1007/s10579-023-09704-w" > Democratizing neural machine translation with OPUS-MT.</a> 
-	  In: Language Resources and Evaluation <br><br>
-			    
-          
-          <br><br>
-
-
-			    <font size="5">2022</font>
-			    <br>
-                <b> Raúl Vázquez, </b> Michele Boggia, Alessandro Raganato, Niki A. Loppi, Stig-Arne Grönroos and Jörg Tiedemann (2022). <a href="https://aclanthology.org/2022.eamt-1.45/"> Latest Development in the FoTran Project – Scaling Up Language Coverage in Neural Machine Translation Using Distributed Training with Language-Specific Components.</a>
-          Proceedings of EAMT2022.<br><br>
-			    
-                <b> Raúl Vázquez, </b> Hande Celikkanat, Vinit Ravishankar, Mathias Creutz and Jörg Tiedemann (2022). <a href="https://aclanthology.org/2022.coling-1.424/"> A Closer Look at Parameter Contributions When Training Neural Language and Translation Models.</a> 
-			    Proceedings of COLING2022  <br><br>
-			    
-			    <br><br>
-			
-			    <font size="5">2021</font>
-			    <br>
-                Alessandro Raganato, <b> Raúl Vázquez, </b> Mathias Creutz and Jörg Tiedemann. (2021). <a href="https://aclanthology.org/2021.emnlp-main.664/"> An Empirical Investigation of Word Alignment Supervision for Zero-shot Multilingual Neural Machine Translation.</a>
-          Proceedings of EMNLP2021.<br><br>
-			    
-                <b> Raúl Vázquez, </b> Hande Celikkanat, Mathias Creutz and Jörg Tiedemann (2021). <a href="https://aclanthology.org/2021.acl-srw.35/"> On the differences between BERT and MT encoder spaces and how to address them in translation tasks.</a> 
-			    ACL-SRW2021. <br><br>
-			    
-                <b> Raúl Vázquez, </b> Yves Scherer, Sami Virpioja and Jörg Tiedemann (2021). <a href="https://aclanthology.org/2021.americasnlp-1.29/"> The Helsinki Submission to the AmericasNLP shared task.</a> 
-	  Proceedings of NAACL2021 (AmericasNLP) <br><br>
-			    
-			    <br><br>
-			    
-			    <font size="5">2020</font>
-			    <br>
-                
-                <b> Raúl Vázquez, </b> Alessandro Raganato, Mathias Creutz, and Jörg Tiedemann (2020). <a href="https://www.mitpressjournals.org/doi/abs/10.1162/COLI_a_00377">A Systematic Study of Inner-Attention-Based Sentence Representations in Multilingual Neural Machine Translation.</a>
-          Computational Linguistics. Volume 46, Issue 2.<br><br>
-			    
-                <b> Raúl Vázquez, </b> Mikko Aulamo, Umut Sulubacak, & Jörg Tiedemann (2020). <a href="https://aclanthology.org/2020.iwslt-1.10/"> The University of Helsinki Submission to the IWSLT2020 Offline Speech Translation Task.</a> 
-	  Proceedings of IWSLT2020 <br><br>
-			    
-			    <br><br>
-			    
-			   <font size="5">2019</font>
-			    <br>
-                
-                <b> Raúl Vázquez, </b> Alessandro Raganato, Jörg Tiedemann and Mathias Creutz. 2019. <a href="https://aclanthology.org/W19-4305/">Multilingual NMT with a language-independent attention bridge.</a>
-          Proceedings of RepL4NLP2019.<br><br>
-          
-                Alessandro Raganato, <b> Raúl Vázquez, </b> Mathias Creutz and Jörg Tiedemann. 2019. <a href="https://aclanthology.org/W19-4304/">An Evaluation of Language-Agnostic Inner-Attention-Based Representations in Machine Translation.</a>
-          Proceedings of RepL4NLP2019.<br><br>
-          
-		<b> Raúl Vázquez, </b> Umut Sulubacak and Jörg Tiedemann. 2019. <a href="https://aclweb.org/anthology/events/acl-2019/">The University of Helsinki Submission to the WMT2019 Parallel Corpus Filtering Task.</a>
-           Proceedings of WMT2019.<br><br>
-           
-                Yves Scherrer, <b> Raúl Vázquez, </b> and Sami Virpioja. 2019. <a href="https://aclanthology.org/W19-5432/">The University of Helsinki Submissions to the WMT2019 Similar Languages Translation Task.</a>
-           Proceedings of WMT2019.<br><br>
-           
-		Aarne Talman, Umut Sulubacak, <b> Raúl Vázquez, </b>  Yves Scherrer, Sami Virpioja, Alessandro Raganato, Arvi Hurskainen, and Jörg Tiedemann. 2019. <a href="https://aclanthology.org/W19-5347/">The University of Helsinki Submission to the WMT2019 News Translation Task.</a>
-           Proceedings of WMT2019.<br><br>
-
-
-			  <br><br>
-			  <font size="5">2018</font>
-			    <br>
-
-		<b> Raúl Vázquez, </b> Alessandro Raganato, Jörg Tiedemann and Mathias Creutz. 2018. <a href="https://arxiv.org/pdf/1811.00498.pdf">Multilingual NMT with a language-independent attention bridge.</a>
-          arXiv preprint arXiv:1811.00498.<br><br>
-
-
-
-                Stig-Arne Grönroos, Benoit Huet, Mikko Kurimo, Jorma Laaksonen, Bernard Merialdo, Phu Pham, Mats Sjöberg, Umut Sulubacak, Jörg Tiedemann, Raphael Troncy and <b>Raúl Vázquez</b>.
-        2018. <a href="https://aclanthology.org/W18-6439/">The MeMAD Submission to the WMT18 Multimodal Translation Task</a>. Proceedings of WMT2018. Belgium Brussels
-
-
-			  <br>
-
-
-                          </div>
-
-
-
-                </div><!--/.row -->
-              </div><!--/.container -->
-            </div><!--/ #intro -->
-
-  			</div><!--/.row -->
-  			<br>
-  		</div><!--/.container -->
-  	</div><!--/ #skillswrap -->
-
-
-  	<section id="contact" name="contact"></section>
-  	<!--FOOTER DESCRIPTION -->
-  	<div id="footwrap">
-  		<div class="container footer-cont">
-  			<div class="footer-div row">
-				<div class="col-lg-4">
-  					<h3 style="color: white;">CONTACT</h3>
-  				</div>
-
-  				<div class="col-lg-4">
-
-  					<p><t>Email</t><br/>
-  						University email: raul.vazquez@helsinki.fi  <br/>
-  					</p>
-  					<p><t>Address</t><br/>
-  						Unioninkatu 40, Saali 36 (B602) <br/>
-  						 00014 - Helsinki, Finland. <br/>
-  					</p>
-
-  				</div>
-  				<div class="col-lg-4">
-
-  					<p>
-              <a href="#headerwrap">Back to top</i></a>
-              <br>
-  						<a href="https://www.linkedin.com/in/jrvc/"class="smoothScroll"  title="Connect to my LinkedIn"><i class="icon-linkedin"></i></a>
-              <a href="assets/files/cv_jrvc.pdf" class="smoothScroll"  title="Download CV"><i class="icon-file" ></i></a>
-
-  					</p>
-  				</div>
-  			</div><!--/.row -->
-  		</div><!--/.container -->
-  	</div><!--/ #footer -->
-
-  	<div id="c">
-  		<div class="container">
-
-  		</div>
-  	</div>
-
-
-      <!-- Bootstrap core JavaScript
-      ================================================== -->
-
-      <script src="assets/js/bootstrap.js"></script>
-      <script src="assets/js/jquery.min.js"></script>
-      <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
-      <script src="assets/js/Chart.js"></script>
-    </body>
-
+</body>
 </html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Under Construction | Raúl Vázquez</title>
+  
+  <!-- Retro & Readable Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      /* Cute Pastel-Retro Palette */
+      --bg-color: #FFF5F7;        /* Soft warm white/pink */
+      --bg-pattern: #FFE4EC;      /* Slightly darker pink for dots */
+      --card-bg: #FFFFFF;
+      --text-main: #2D1B2E;       /* Soft dark purple/black */
+      --text-muted: #8A7A8B;
+      --accent: #FF85A2;          /* Cute pastel pink */
+      --accent-hover: #FF5C8A;
+      --secondary: #A2D2FF;       /* Soft pastel blue */
+      --shadow: #CDB4DB;          /* Pastel purple shadow */
+      --border-width: 4px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      /* Cute retro dot pattern background */
+      background-image: radial-gradient(var(--bg-pattern) 15%, transparent 16%);
+      background-size: 20px 20px;
+      color: var(--text-main);
+      font-family: 'VT323', monospace;
+      font-size: 1.5rem;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+
+    .container {
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* --- 8-Bit UI Components --- */
+    .pixel-box {
+      background-color: var(--card-bg);
+      border: var(--border-width) solid var(--text-main);
+      box-shadow: 8px 8px 0px var(--shadow);
+      padding: 2.5rem 2rem;
+      position: relative;
+    }
+
+    /* Decorative corner pixels */
+    .pixel-box::before, .pixel-box::after {
+      content: "";
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background-color: var(--accent);
+    }
+    .pixel-box::before { top: -4px; left: -4px; }
+    .pixel-box::after { bottom: -4px; right: -4px; }
+
+    h1 {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1.4rem;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      line-height: 1.5;
+      text-transform: uppercase;
+    }
+
+    p {
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+      font-size: 1.3rem;
+    }
+
+    /* --- Cute Pixel Art Robot --- */
+    .pixel-robot {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 1.5rem auto;
+      /* Keeps pixels sharp and crisp */
+      shape-rendering: crispEdges; 
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .robot-eye {
+      animation: blink 4s infinite;
+      transform-origin: center;
+    }
+
+    /* --- Animations --- */
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+
+    @keyframes blink {
+      0%, 48%, 52%, 100% { transform: scaleY(1); }
+      50% { transform: scaleY(0.1); }
+    }
+
+    /* --- Pixel Button --- */
+    .pixel-btn {
+      display: inline-block;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 0.65rem;
+      background-color: var(--secondary);
+      color: var(--text-main) !important;
+      padding: 1rem 1.5rem;
+      border: var(--border-width) solid var(--text-main);
+      cursor: pointer;
+      text-decoration: none !important;
+      box-shadow: 4px 4px 0px var(--text-main);
+      transition: all 0.1s ease;
+    }
+
+    .pixel-btn:hover {
+      background-color: var(--accent);
+      color: white !important;
+      transform: translate(2px, 2px);
+      box-shadow: 2px 2px 0px var(--text-main);
+    }
+
+    .pixel-btn:active {
+      transform: translate(4px, 4px);
+      box-shadow: 0px 0px 0px var(--text-main);
+    }
+
+    /* --- Loading Bar (Optional Cute Detail) --- */
+    .loading-bar {
+      width: 100%;
+      height: 16px;
+      border: var(--border-width) solid var(--text-main);
+      background-color: var(--bg-pattern);
+      margin: 1.5rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .loading-fill {
+      height: 100%;
+      width: 60%;
+      background-color: var(--accent);
+      background-image: linear-gradient(
+        45deg, 
+        rgba(255,255,255,.3) 25%, 
+        transparent 25%, 
+        transparent 50%, 
+        rgba(255,255,255,.3) 50%, 
+        rgba(255,255,255,.3) 75%, 
+        transparent 75%, 
+        transparent
+      );
+      background-size: 16px 16px;
+      animation: load 2s linear infinite;
+    }
+
+    @keyframes load {
+      0% { background-position: 0 0; }
+      100% { background-position: 16px 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="pixel-box"> 
+	<!-- Cute Inline SVG Pixel Robot -->
+	<svg class="pixel-robot" viewBox="0 0 16 16">
+	  <!-- Antenna -->
+	  <rect x="7" y="1" width="2" height="2" fill="#FFD166"/>
+	  <rect x="7" y="3" width="2" height="1" fill="#A2D2FF"/>
+
+	  <!-- Head -->
+	  <rect x="3" y="4" width="10" height="8" fill="#A2D2FF"/>
+	  <rect x="2" y="5" width="1" height="6" fill="#A2D2FF"/>
+	  <rect x="13" y="5" width="1" height="6" fill="#A2D2FF"/>
+
+	  <!-- Eyes -->
+	  <rect class="robot-eye" x="5" y="6" width="2" height="2" fill="#2D1B2E"/>
+	  <rect class="robot-eye" x="9" y="6" width="2" height="2" fill="#2D1B2E"/>
+
+	  <!-- Mouth -->
+	  <rect x="6" y="10" width="4" height="1" fill="#2D1B2E"/>
+
+	  <!-- Body -->
+	  <rect x="4" y="12" width="8" height="4" fill="#FF85A2"/>
+
+	  <!-- Left arm -->
+	  <rect x="1" y="13" width="3" height="2" fill="#FFD166"/>
+
+	  <!-- Right arm (extended holding hammer) -->
+	  <rect x="12" y="13" width="2" height="2" fill="#FFD166"/>
+
+	  <!-- Hammer handle -->
+	  <rect x="14" y="12" width="1" height="4" fill="#6B4F2A"/>
+
+	  <!-- Hammer head -->
+	  <rect x="13" y="11" width="3" height="2" fill="#C0C0C0"/>
+	  <rect x="13" y="12" width="3" height="1" fill="#9E9E9E"/>
+	  
+	</svg>
+
+
+
+      <h1>Under Construction!</h1>
+      
+      <p>
+        This page is currently getting a pixel-perfect makeover.<br>
+        Check back soon!
+      </p>
+
+      <!-- Cute animated loading bar -->
+      <div class="loading-bar">
+        <div class="loading-fill"></div>
+      </div>
+
+      <a href="/" class="pixel-btn">← RETURN HOME</a>
+      
+    </div>
+  </div>
+
+</body>
+</html>
