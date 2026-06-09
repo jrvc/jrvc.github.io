@@ -1,13 +1,9 @@
 import requests
-from bs4 import BeautifulSoup
 import json
 from datetime import datetime
 from dateutil import parser
-
-URL = "https://www.conferencedeadlines.com/cs"
-
-html = requests.get(URL, timeout=10).text
-soup = BeautifulSoup(html, "html.parser")
+from playwright.sync_api import sync_playwright
+import re
 
 target_conferences = {
     "ACL": "The Association for Computational Linguistics",
@@ -26,9 +22,8 @@ target_conferences = {
     "ICCV": "International Conference on Computer Vision"
 }
 
-from playwright.sync_api import sync_playwright
-import re
-import json
+
+
 
 
 URL = "https://www.conferencedeadlines.com/cs"
