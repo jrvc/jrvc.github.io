@@ -1,0 +1,42 @@
+[
+  {
+    "name": "COLM",
+    "deadline": "Mar 26, 2026",
+    "raw": "COLM\nNLP\n\nConference on Language Modeling\n\nDeadlines\nAbstract:\nMar 26, 2026\nPast\nSubmission:\nMar 31, 2026\nPast\nConference:\nOct 6, 2026\n\u2014 Oct 9, 2026\nLocation\n\nSan Francisco\n\nUSA\n\nWeather\n20\u00b0C\n\nMild and sunny\n\nVenue\n\nHilton San Francisco Union Square, 333 O'Farrell Street, San Francisco, CA 94102, USA\n\nFlight\nSet Location"
+  },
+  {
+    "name": "NeurIPS",
+    "deadline": "May 4, 2026",
+    "raw": "NeurIPS\nML\nA*\n\nConference on Neural Information Processing Systems\n\nDeadlines\nAbstract:\nMay 4, 2026\nPast\nSubmission:\nMay 6, 2026\nPast\nConference:\nDec 6, 2026\n\u2014 Dec 12, 2026\nLocation\n\nSydney\n\nAustralia\n\nWeather\n0\u00b0C\n\nUnknown\n\nVenue\n\nNot yet announced\n\nFlight\nSet Location"
+  },
+  {
+    "name": "EMNLP",
+    "deadline": "May 25, 2026",
+    "raw": "EMNLP\nNLP\nA*\n\nConference on Empirical Methods in Natural Language Processing\n\nDeadlines\nSubmission:\nMay 25, 2026\nPast\nConference:\nOct 24, 2026\n\u2014 Oct 29, 2026\nLocation\n\nBudapest\n\nHungary\n\nWeather\n11\u00b0C\n\nCool weather\n\nVenue\n\nNot yet announced\n\nFlight\nSet Location"
+  },
+  {
+    "name": "WACV",
+    "deadline": "Jun 25, 2026",
+    "raw": "WACV\nCV\nA\n\nIEEE/CVF Winter Conference on Applications of Computer Vision\n\nDeadlines\nSubmission:\nJun 25, 2026\n16 days\nConference:\nJan 5, 2027\n\u2014 Jan 9, 2027\nLocation\n\nLake Buena Vista\n\nUSA\n\nWeather\n21\u00b0C\n\nMild and sunny\n\nVenue\n\nDisney Springs, 1486 E Buena Vista Dr, Lake Buena Vista, FL 32830, USA\n\nFlight\nSet Location"
+  },
+  {
+    "name": "AAAI",
+    "deadline": "Jul 21, 2026",
+    "raw": "AAAI\nAI\nA*\n\nConference on Artificial Intelligence\n\nDeadlines\nAbstract:\nJul 21, 2026\n42 days\nSubmission:\nJul 28, 2026\n49 days\nConference:\nFeb 16, 2027\n\u2014 Feb 23, 2027\nLocation\n\nMontr\u00e9al\n\nCanada\n\nWeather\n0\u00b0C\n\nUnknown\n\nVenue\n\nNot yet announced\n\nFlight\nSet Location"
+  },
+  {
+    "name": "EACL",
+    "deadline": "Aug 3, 2026",
+    "raw": "EACL\nNLP\nA\n\nConference of the European Chapter of the Association for Computational Linguistics\n\nDeadlines\nSubmission:\nAug 3, 2026\n55 days\nConference:\nMar 9, 2027\n\u2014 Mar 14, 2027\nLocation\n\nAthens\n\nGreece\n\nWeather\n0\u00b0C\n\nUnknown\n\nVenue\n\nNot yet announced\n\nFlight\nSet Location"
+  },
+  {
+    "name": "CHI",
+    "deadline": "Sep 10, 2026",
+    "raw": "CHI\nHCI\nA*\n\nACM Conference on Human Factors in Computing Systems\n\nDeadlines\nSubmission:\nSep 10, 2026\n93 days\nConference:\nMay 10, 2027\n\u2014 May 14, 2027\nLocation\n\nPittsburgh\n\nUSA\n\nWeather\n0\u00b0C\n\nUnknown\n\nVenue\n\nDavid L. Lawrence Convention Center, downtown Pittsburgh, USA\n\nFlight\nSet Location"
+  },
+  {
+    "name": "ICCV",
+    "deadline": "Oct 2, 2027",
+    "raw": "ICCV\nCV\nA*\n\nInternational Conference on Computer Vision\n\nDeadlines\nSubmission:\nTypically March\n269 days\nConference:\nOct 2, 2027\n\u2014 Oct 8, 2027\nLocation\n\nHong Kong\n\nHong Kong\n\nWeather\n27\u00b0C\n\nWarm and humid\n\nVenue\n\nNot yet announced\n\nFlight\nSet Location"
+  }
+]

@@ -178,15 +178,21 @@
   100% { transform: translateX(0); }
 }
 
+.flower-cap {
+  animation: flower-sway 4s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.flower-cap2 {
+  animation: bounce 3s ease-in-out infinite;
+  transform-origin: center;
+}
 @keyframes bounce {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-6px); }
 }
 
-.flower-cap {
-  animation: flower-sway 5s ease-in-out infinite;
-  transform-origin: center;
-}
+
 
 @keyframes flower-sway {
   0%   { transform: translateX(0px); }
@@ -258,7 +264,7 @@
     <div class="spore spore-3"></div>
     <div class="spore spore-4"></div>
 
-    <!-- Shifted SVG Landscape -->
+    <!-- SVG Landscape -->
     <svg viewBox="80 -50 1200 300">
       <!-- Sky -->
       <rect width="1200" height="220" fill="#FFF5F7"/>
@@ -366,9 +372,9 @@
         <rect x="530" y="145" width="4" height="25"/>
         <rect x="540" y="152" width="4" height="18"/>
         
-        <rect x="720" y="180" width="4" height="20"/>
-        <rect x="730" y="175" width="4" height="25"/>
-        <rect x="740" y="182" width="4" height="18"/>
+        <rect x="720" y="182" width="4" height="20"/>
+        <rect x="730" y="177" width="4" height="25"/>
+        <rect x="740" y="184" width="4" height="18"/>
         
         <rect x="1080" y="150" width="4" height="20"/>
         <rect x="1090" y="145" width="4" height="25"/>
@@ -382,12 +388,13 @@
         <rect x="1070" y="160" width="3" height="20" fill="#58A65C"/>
         <rect x="1146" y="155" width="3" height="15" fill="#58A65C"/>
         <g class="flower-cap">
-          <rect x="500" y="165" width="12" height="12" fill="#FFD166"/>
           <rect x="765" y="145" width="12" height="12" fill="#FF85A2"/>
-          <rect x="1065" y="155" width="12" height="12" fill="#FFD166"/>
           <rect x="1145" y="150" width="12" height="12" fill="#FF85A2"/>
         </g>
-        
+        <g class="flower-cap2">
+          <rect x="500" y="165" width="12" height="12" fill="#FFD166"/>
+          <rect x="1065" y="155" width="12" height="12" fill="#FFD166"/>
+        </g>
 
         
   
