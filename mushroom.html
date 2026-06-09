@@ -57,9 +57,9 @@
 .pixel-banner {
   width: 100%;
   max-width: 1200px;
-  height: 220px;
+  min-height: 200px;
   margin: 0 auto 2rem auto; /* Spaces it nicely above your main container */
-  position: absolute; top: 0;
+  position: relative;
   background-color: var(--bg-color);
   border: var(--border-width) solid var(--text-main);
   box-shadow: 8px 8px 0px var(--shadow);
@@ -94,7 +94,6 @@
 .banner-art-area {
   flex: 1.4;
   position: relative;
-  height: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -103,16 +102,16 @@
 .pixel-banner svg {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
   image-rendering: pixelated;
   shape-rendering: crispEdges;
 }
 
-/* --- Subtle Spores --- */
+/* --- Spores --- */
 .spore {
   position: absolute;
-  width: 6px;
-  height: 6px;
+  width: 4px;
+  height: 4px;
   background-color: #ffffff;
   opacity: 0;
   /* Pastel pink accent shadow for a cute, crisp pixel glow */
@@ -215,7 +214,7 @@
     <div class="spore spore-3"></div>
 
     <!-- Shifted SVG Landscape -->
-    <svg viewBox="50 -50 1200 50">
+    <svg viewBox="80 -50 1200 300">
       <!-- Sky -->
       <rect width="1200" height="220" fill="#FFF5F7"/>
 
@@ -256,22 +255,17 @@
       <!-- Ground -->
       <rect x="0" y="160" width="1200" height="60" fill="#BEE3A8"/>
 
-      <!-- Distant part -->
-      <g fill="#D6F0D1">
-        <rect x="400" y="130" width="300" height="30"/>
-        <rect x="650" y="110" width="350" height="50"/>
-        <rect x="950" y="125" width="250" height="35"/>
-      </g>
+      <!-- Middle part -->
+      <rect x="300" y="130" width="850" height="30" fill="#D6F0D1"/>
 
-      <!-- MAIN GIANT MUSHROOM -->
-      <g class="mushroom-group">
-        <rect x="645" y="95" width="110" height="80" fill="#F6F1D1"/>
-        <rect x="530" y="25" width="340" height="70" fill="#FF85A2"/>
-        <rect x="565" y="0" width="270" height="25" fill="#FF85A2"/>
-        <rect x="600" y="30" width="30" height="20" fill="#ffffff"/>
-        <rect x="720" y="20" width="35" height="25" fill="#ffffff"/>
-        <rect x="790" y="45" width="25" height="18" fill="#ffffff"/>
-        <rect x="660" y="55" width="20" height="15" fill="#ffffff"/>
+      <!-- Distant part -->
+      <g fill="#EDF7EB">
+      <rect x="325" y="100" width="250" height="30" />
+      <rect x="350" y="80" width="40" height="30" />
+      <rect x="475" y="80" width="50" height="30" />
+
+      <rect x="800" y="100" width="300" height="30" />
+      <rect x="900" y="80" width="150" height="30" />
       </g>
 
       <!-- BACK MUSHROOMS -->
@@ -291,24 +285,49 @@
         <rect x="1080" y="140" width="15" height="30" fill="#F6F1D1"/>
         <rect x="1055" y="120" width="65" height="20" fill="#CDB4DB"/>
       </g>
-
-      <!-- Flowers (Right side) -->
-      <g>
-        <rect x="1080" y="150" width="3" height="20" fill="#58A65C"/>
-        <rect x="1075" y="145" width="12" height="12" fill="#FFD166"/>
-        <rect x="1150" y="155" width="3" height="15" fill="#58A65C"/>
-        <rect x="1145" y="150" width="12" height="12" fill="#FF85A2"/>
+      
+      <!-- MAIN MUSHROOM -->
+      <g class="mushroom-group">
+        <rect x="645" y="95" width="110" height="80" fill="#F6F1D1"/>
+        <rect x="530" y="25" width="340" height="70" fill="#FF85A2"/>
+        <rect x="565" y="0" width="270" height="25" fill="#FF85A2"/>
+        <rect x="600" y="30" width="30" height="20" fill="#ffffff"/>
+        <rect x="720" y="20" width="35" height="25" fill="#ffffff"/>
+        <rect x="790" y="45" width="25" height="18" fill="#ffffff"/>
+        <rect x="660" y="55" width="20" height="15" fill="#ffffff"/>
       </g>
 
-      <!-- Grass (Right side) -->
+      <!-- Grass -->
       <g fill="#58A65C">
         <rect x="520" y="150" width="4" height="20"/>
         <rect x="530" y="145" width="4" height="25"/>
         <rect x="540" y="152" width="4" height="18"/>
+        
+        <rect x="720" y="180" width="4" height="20"/>
+        <rect x="730" y="175" width="4" height="25"/>
+        <rect x="740" y="182" width="4" height="18"/>
+        
         <rect x="1080" y="150" width="4" height="20"/>
         <rect x="1090" y="145" width="4" height="25"/>
         <rect x="1100" y="152" width="4" height="18"/>
       </g>
+      
+      <!-- Flowers -->
+      <g>
+        <rect x="505" y="170" width="3" height="20" fill="#58A65C"/>
+        <rect x="500" y="165" width="12" height="12" fill="#FFD166"/>
+        
+        
+        <rect x="775" y="150" width="3" height="15" fill="#58A65C"/>
+        <rect x="765" y="145" width="12" height="12" fill="#FF85A2"/>
+        
+        <rect x="1070" y="160" width="3" height="20" fill="#58A65C"/>
+        <rect x="1065" y="155" width="12" height="12" fill="#FFD166"/>
+        
+        <rect x="1146" y="155" width="3" height="15" fill="#58A65C"/>
+        <rect x="1145" y="150" width="12" height="12" fill="#FF85A2"/>
+      </g>
+      
     </svg>
   </div>
 </div>
