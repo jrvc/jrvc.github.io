@@ -121,6 +121,8 @@
 .spore-1 { left: 60%; bottom: 30%; animation: drift 6s linear infinite; animation-delay: 0s; }
 .spore-2 { left: 75%; bottom: 40%; animation: drift 7s linear infinite; animation-delay: 2s; }
 .spore-3 { left: 85%; bottom: 25%; animation: drift 5.5s linear infinite; animation-delay: 4s; }
+.spore-4 { left: 30%; bottom: 25%; animation: drift 5.5s linear infinite; animation-delay: 4s; }
+
 
 @keyframes drift {
   0% { transform: translateY(0) translateX(0); opacity: 0; }
@@ -135,6 +137,11 @@
 
 .cloud-bounce {
   animation: bounce-cloud 5s ease-in-out infinite;
+}
+
+.sun-rays {
+  transform-origin: 32px 32px;
+  animation: sun-spin 168s linear infinite;
 }
 
 @keyframes move-cloud {
@@ -178,9 +185,27 @@
   .spore { opacity: 0.5; }
 }
 
-.sun-rays {
-  transform-origin: 32px 32px;
-  animation: sun-spin 168s linear infinite;
+@media (max-width: 768px) {
+
+  .pixel-banner {
+    flex-direction: column;
+  }
+
+  .banner-text-area {
+    text-align: center;
+    padding: 2rem 2rem 0 2rem; 
+  }
+
+  .banner-text-area h2 {
+    font-size: 0.75rem;
+  }
+  .banner-text-area p {
+  font-size: 0.9rem;
+  }
+
+  .banner-art-area {
+    width: 75%;
+  }
 }
 
 @keyframes sun-spin {
@@ -212,6 +237,7 @@
     <div class="spore spore-1"></div>
     <div class="spore spore-2"></div>
     <div class="spore spore-3"></div>
+    <div class="spore spore-4"></div>
 
     <!-- Shifted SVG Landscape -->
     <svg viewBox="80 -50 1200 300">
