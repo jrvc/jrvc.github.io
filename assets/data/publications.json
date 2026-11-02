@@ -1,6 +1,16 @@
 [
   {
     "year": 2026,
+    "title": "Language Models Learn Universal Representations of Numbers and Here's Why You Should Care",
+    "authors": [
+      "Mickus, T.",
+      "<strong>Vázquez, Raúl</strong>"
+    ],
+    "journal": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics: Volume 1: Long Papers.",
+    "link": "https://researchportal.helsinki.fi/en/publications/language-models-learn-universal-representations-of-numbers-and-he/"
+  },
+  {
+    "year": 2026,
     "title": "Building multimodal corpora using microtask pipelines and local annotators",
     "authors": [
       "Hotti, H.",
@@ -16,7 +26,7 @@
   },
   {
     "year": 2026,
-    "title": "Knowledge Distillation as Decontamination? Revisiting the “Data Laundering” Concern in Classification Tasks",
+    "title": "Knowledge Distillation as Decontamination? Revisiting the \"Data Laundering\" Concern in Classification Tasks",
     "authors": [
       "Luo, H.",
       "<strong>Vázquez, Raúl</strong>",
